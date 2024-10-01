@@ -15,12 +15,12 @@
     "type": "menu",
     "items": {
       "podwise": {
-        "title": "Podwise AI",
-        "href": "https://podwise.ai"
+        "title": "ME AI",
+        "href": "https://app.magicemerge.ai"
       },
       "homepage": {
-        "title": "HardHackerLabs",
-        "href": "https://hardhacker.com"
+        "title": "ME Labs",
+        "href": "https://magicemerge.ai"
       }
     }
   }

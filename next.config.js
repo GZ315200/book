@@ -6,7 +6,8 @@ const withNextra = require("nextra")({
 });
 
 module.exports = withNextra({
-  assetPrefix: isProd ? 'https://book.hardhacker.com' : undefined,
+  assetPrefix: isProd ? 'https://book.magicemerge.ai' : undefined,
+  
 });
 
 // If you have other Next.js configurations, you can pass them as the parameter:

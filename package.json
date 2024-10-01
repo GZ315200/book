@@ -1,8 +1,8 @@
 {
-  "name": "hardhacker-handbook",
+  "name": "ME-handbook",
   "version": "0.2.2",
   "author": {
-    "name": "HardHackerLabs"
+    "name": "ME Labs"
   },
   "scripts": {
     "dev": "next",

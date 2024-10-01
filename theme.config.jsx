@@ -5,12 +5,12 @@ import Image from 'next/image'
 
 
 export default {
-  logo: <span>硬地骇客 - 两个月 $12000 ARR 实践之路</span>,
+  logo: <span>ME - AI产品的实践之路</span>,
   project: {
-    link: "https://github.com/hardhackerlabs/book",
+    link: "https://github.com/GZ315200/book",
   },
   chat: {
-    link: "https://book.hardhacker.com/authors",
+    link: "https://book.magicemerge.ai/authors",
     icon: (
       <svg width="24" height="24" viewBox="0 0 60 60">
         <g>
@@ -26,12 +26,12 @@ export default {
       </svg>
     )
   },
-  docsRepositoryBase: "https://github.com/hardhackerlabs/book/tree/main/",
+  docsRepositoryBase: "https://github.com/GZ315200/book",
   banner: {
     key: 'debut',
     text: (
       <a href="/authors" target="_blank">
-        🥳 加入「硬地骇客」知识星球，与作者和读者一起交流探讨！点击了解更多 →
+        🥳 加入「ME」好友群，与作者和读者一起交流探讨！点击了解更多 →
       </a>
     )
   },
@@ -45,10 +45,10 @@ export default {
     return (
       <>
         <meta property="og:url" content={url} />
-        <meta property="og:title" content={frontMatter.title + " – 硬地骇客" || '硬地骇客'} />
+        <meta property="og:title" content={frontMatter.title + " – ME" ||  'ME - AI产品的实践之路'} />
         <meta
           property="og:description"
-          content={frontMatter.description || '两个月 $12000 ARR 实践之路'}
+          content={frontMatter.description || 'ME - AI产品的实践之路'}
         />
         <meta property="og:image" content="https://github.com/hardhackerlabs/book/blob/main/public/attachments/other/ARR.png?raw=true" />
       </>
@@ -65,13 +65,13 @@ export default {
   toc: {
     title: "目录",
     extraContent: <>
-    <span>🥳 欢迎加入「硬地骇客」社群！</span>
-    <Image
+    <span>🥳 欢迎加入「ME」好有社群！</span>
+    {/* <Image
       src="/attachments/other/planet.png"
       width={500}
       height={500}
       alt="knowledge planet"
-    />
+    /> */}
     <span>与作者和广大读者一起交流。 💬</span>
   </>,
   },
@@ -83,8 +83,8 @@ export default {
     text: (
       <span>
         Made with 💖 by ©{" "}
-        <a href="https://hardhacker.com" target="_blank">
-          硬地骇客
+        <a href="https://app.magicemerge.ai" target="_blank">
+          ME Labs
         </a>
       </span>
     ),
